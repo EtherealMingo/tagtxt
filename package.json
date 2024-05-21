@@ -1,0 +1,17 @@
+{
+  "name": "tagtxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.1.2",
+    "electron": "^30.0.6",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

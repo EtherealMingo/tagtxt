@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#name{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+#content{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px dotted #000;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+}
+#selectTag{
+    margin-bottom: 10px;
+    padding: 10px;
+    color: goldenrod;
+}
+#tags{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#tags .tag{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+#tags .tag:hover{
+    background-color: #333;
+    cursor: pointer;    
+}
+
+#next,#prev{
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+#next{
+        position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#prev{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#next:hover,#prev:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+#settingPanel{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: none;
+}
+#setting{
+    display: block;
+height: 20px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 0 auto;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
