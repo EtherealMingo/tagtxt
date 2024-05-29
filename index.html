@@ -6,7 +6,8 @@
   <title>打标签</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
+<button id="selectFile">选择文件</button>
+<button id="exportData">导出</button>
 <body>
   <div class="container">
     <div id="name"></div>
@@ -18,16 +19,16 @@
     <!-- <button class="tag">Tag1</button>
     <button class="tag">Tag2</button> -->
   </div>
-  <button id="prev">Prev</button>
-  <button id="next">Next</button>
+  <button id="prev">上一个</button>
+  <button id="next">下一个</button>
 
-  <button id="setting">Show setting</button>
+  <button id="setting">这里添加标签</button>
 
   <div id="settingPanel">
     <div>
-      <label for="newTag">Tag:</label>
+      <label for="newTag">标签:</label>
       <input type="text" id="newTag">
-      <button id="addTag">Add</button>
+      <button id="addTag">添加新标签</button>
     </div>
   </div>
   <script src="renderer.js"></script>
